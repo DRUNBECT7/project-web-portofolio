@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ELMA RAHMAYANI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    html, body {
+      height: 100%;
+    }
+    body {
+      background-color: #f7eaff; /* Ungu pastel */
+      display: flex;
+      flex-direction: column;
+    }
+    nav {
+      background-color: #7b2cbf; /* Ungu utama */
+    }
+    .nav-link {
+      color: white !important;
+      font-weight: 500;
+    }
+    .nav-link:hover {
+      color: #ffe6ff !important;
+    }
+    footer {
+      background-color: #7b2cbf;
+      color: white;
+      margin-top: auto; /* Footer otomatis turun ke bawah */
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="index.html">ELMA RAHMAYANI | PORTOFOLIO</a>
+
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Media Sosial</a></li>
+      </ul>
+
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Cari">
+        <button class="btn btn-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- SLIDESHOW / HERO -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="https://images.pexels.com/photos/6400202/pexels-photo-6400202.jpeg" class="d-block w-100" style="height: 420px; object-fit: cover;">
+      <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+        <h1 class="fw-bold" style="text-shadow: 0 0 8px #000;">Selamat Datang Di Website dan Karya Elma Rahmayani</h1>
+        <h5 style="text-shadow: 0 0 8px #000;">Perempuan kreatif dengan passion di dunia kuliner</h5>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/5560763/pexels-photo-5560763.jpeg" class="d-block w-100" style="height: 420px; object-fit: cover;">
+      <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+        <h1 class="fw-bold" style="text-shadow: 0 0 8px #000;">Menghadirkan Rasa & Estetika</h1>
+        <h5 style="text-shadow: 0 0 8px #000;">Setiap masakan punya cerita dan emosi</h5>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="https://images.pexels.com/photos/5908239/pexels-photo-5908239.jpeg" class="d-block w-100" style="height: 420px; object-fit: cover;">
+      <div class="carousel-caption d-flex flex-column h-100 align-items-center justify-content-center">
+        <h1 class="fw-bold" style="text-shadow: 0 0 8px #000;">Kreativitas Tanpa Batas</h1>
+        <h5 style="text-shadow: 0 0 8px #000;">Dapur adalah ruang berkarya terbaikku</h5>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Tombol navigasi kiri-kanan -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- DAFTAR RESEP -->
+<div class="container mt-5 mb-5">
+  <h2 class="fw-bold text-purple text-center mb-4">Daftar Resep Buatan Saya</h2>
+
+  <div class="row g-4">
+
+    <!-- RESEP 1 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card shadow h-100">
+        <img src="https://images.pexels.com/photos/5908229/pexels-photo-5908229.jpeg"
+             class="card-img-top" style="height: 240px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="fw-bold text-purple">Salad Buah Yogurt</h5>
+          <p class="mb-1"><b>Bahan:</b></p>
+          <ul>
+            <li>Apel, Anggur, Melon</li>
+            <li>Yogurt plain manis</li>
+            <li>Madu</li>
+            <li>Keju parut</li>
+          </ul>
+          <p class="small text-secondary">
+            Salad buah segar dengan rasa creamy dan manis alami cocok sebagai dessert sehat.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESEP 2 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card shadow h-100">
+        <img src="https://images.pexels.com/photos/6546423/pexels-photo-6546423.jpeg"
+             class="card-img-top" style="height: 240px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="fw-bold text-purple">Pasta Creamy Carbonara</h5>
+          <p class="mb-1"><b>Bahan:</b></p>
+          <ul>
+            <li>Spaghetti</li>
+            <li>Susu & krim masak</li>
+            <li>Keju parmesan</li>
+            <li>Bawang putih & smoked beef</li>
+          </ul>
+          <p class="small text-secondary">
+            Tekstur creamy & savory dengan aroma bawang putih yang kuat — comfort food favorit.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- RESEP 3 -->
+    <div class="col-lg-4 col-md-6">
+      <div class="card shadow h-100">
+        <img src="https://images.pexels.com/photos/5410401/pexels-photo-5410401.jpeg"
+             class="card-img-top" style="height: 240px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="fw-bold text-purple">Chicken Teriyaki Bento</h5>
+          <p class="mb-1"><b>Bahan:</b></p>
+          <ul>
+            <li>Dada ayam</li>
+            <li>Saus teriyaki</li>
+            <li>Nasi putih & telur</li>
+            <li>Brokoli & wortel rebus</li>
+          </ul>
+          <p class="small text-secondary">
+            Perpaduan rasa manis & gurih khas Jepang dengan penyajian ala bento box.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="py-3 text-center">
+  <p class="mb-0 text-white">Dibuat oleh: <b>Elma Rahmayani | Suka Masak dan Jagoan Masak</b></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
